@@ -1,0 +1,23 @@
+.container {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap {
+  width: 400px;
+}
+.title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 36px;
+  color: rgb(122, 124, 124);
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(32, 169, 169);
+  text-align: center;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

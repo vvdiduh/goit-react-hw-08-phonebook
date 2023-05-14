@@ -1,0 +1,68 @@
+.wrap {
+  position: relative;
+}
+.form {
+  position: relative;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  /* margin-top: 15px; */
+  /* border: 1px solid #e2e8f0; */
+  background-color: #ffffffaa;
+  box-shadow: 0 5px 12px -1px rgba(0, 0, 0, 0.1),
+    0 2px 10px -1px rgba(0, 0, 0, 0.06);
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.span {
+  margin-bottom: 5px;
+}
+.iconUser {
+  position: absolute;
+  left: 22px;
+  top: 24px;
+  color: rgb(187, 188, 188);
+}
+.iconMail {
+  position: absolute;
+  left: 22px;
+  top: 78px;
+  color: rgb(187, 188, 188);
+}
+.iconPass {
+  position: absolute;
+  left: 22px;
+  bottom: 87px;
+  color: rgb(187, 188, 188);
+}
+.btn {
+  width: 60px;
+  padding: 3px;
+  background-color: transparent;
+  border: 1px solid rgb(153, 199, 187);
+  border-radius: 3px;
+  position: absolute;
+  right: 25px;
+  bottom: 133px;
+  color: rgb(109, 111, 114);
+  transition: background-color 250ms linear;
+}
+.btn:hover {
+  background-color: rgb(219, 236, 231);
+}
+.text {
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.container {
+  display: flex;
+}
+.mail {
+  margin: auto 15px;
+
+  font-weight: 400;
+  font-size: 20px;
+}
+.text {
+  margin: auto 0;
+  font-size: 25px;
+}
+.btn {
+  position: relative;
+  border: 2px solid rgb(32, 169, 169);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 30px;
+  border-radius: 7px;
+  /* margin: 0 50px; */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #303130;
+  background-color: transparent;
+  transition: background-color 250ms linear;
+}
+.btn:hover {
+  background-color: rgb(32, 169, 169);
+}
+.icon {
+  position: absolute;
+  right: 4px;
+  bottom: 5px;
+}

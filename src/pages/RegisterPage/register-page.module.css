@@ -1,0 +1,13 @@
+.wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.title {
+  color: rgb(158, 162, 161);
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(32, 169, 169);
+}

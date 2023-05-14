@@ -1,0 +1,25 @@
+.field {
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  border: 1px solid rgb(187, 188, 188);
+  border-radius: 5px;
+  background-color: transparent;
+}
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: rgb(187, 188, 188);
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: rgb(187, 188, 188);
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: rgb(187, 188, 188);
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: rgb(187, 188, 188);
+}
